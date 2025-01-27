@@ -1,0 +1,204 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(46, 46, 83);
+            color: white;
+        }
+
+        /* Styling for the navigation bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            /* Adjust to space out items better */
+            align-items: center;
+            height: 80px;
+            background-color: rgb(24, 24, 71);
+            padding: 0 20px;
+            /* Add padding on the sides for better spacing */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Adds a subtle shadow for depth */
+        }
+
+        /* Styling for the navigation links */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        /* Styling for list items in the navigation */
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+            /* Reduce margin slightly for a more balanced look */
+        }
+
+        /* Styling for the links */
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            /* Adjust font size for readability */
+            transition: color 0.3s ease, font-size 0.3s ease;
+            /* Smooth transition on hover */
+        }
+
+        /* Hover effect for links */
+        nav ul li a:hover {
+            color: rgb(136, 136, 183);
+            font-size: 1.1rem;
+            /* Slightly increase font size on hover */
+        }
+
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0px;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 31%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(35, 35, 119);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 40px;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(168, 103, 230);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(168, 103, 230);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(34, 14, 34);
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 23px 122px;
+        }
+
+        .footer h3,
+        .footer h4 {
+            margin-bottom: 10px;
+        }
+
+        .footer p,
+        .footer a {
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: rgb(168, 103, 230);
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 8px;
+        }
+
+        .vertical-title:hover {
+            color: #007BFF;
+            /* Adds a hover color effect */
+            cursor: pointer;
+        }
